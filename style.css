@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(./Images/PK-en-20241223-TRIFECTA-perspective_85ff0c55-7fef-41fd-8447-76e72e8dbaa0_large.jpg);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px -16px;
+    height: 5rem;
+    align-items: center;
+    background: transparent;
+    opacity: 1 !important;
+}
+
+header nav .logo img{
+    width: 10rem;
+    height: 5rem;
+}
+
+.btn{
+    background: rgb(229,9,20);
+    border: 0.0625rem solid rgba(0,0,0,0);
+    border-radius: 7px;
+    width: 5rem;
+    height:  2.5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+.btn:hover{
+    background: rgba(229, 9, 20, 0.832);
+    color: white;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+
+.hero .intro h1{
+    font-family:Helvetica ,sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.hero .intro p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px 16px;
+    color: white;
+}
+
+.form{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.form input{
+    width: auto;
+    background: transparent;
+}
