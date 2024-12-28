@@ -14,7 +14,6 @@ header nav{
     height: 5rem;
     align-items: center;
     background: transparent;
-    opacity: 1 !important;
 }
 
 header nav .logo img{
@@ -45,14 +44,16 @@ header nav .logo img{
     flex-wrap: wrap;
     text-align: center;
     color: white;
+    margin-top: 200px;
+    gap: 10px;
 }
 
 .hero .intro h1{
     font-family:Helvetica ,sans-serif;
     color: white;
-    font-weight: bolder;
-    margin-bottom: 0.5rem;
     font-weight: 700;
+    margin-bottom: 0.5rem;
+    /* font-weight: 700; */
     line-height: 125%;
 }
 
@@ -66,8 +67,19 @@ header nav .logo img{
 .form{
     display: inline-flex;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .form input{
-    width: auto;
+    width: 320px;
     background: transparent;
+    height: 55px;
+    border-radius: 7px;
+    padding-left: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.488);
+}
+
+.form button{
+    width: 180px;
+    height: 55px;
 }
