@@ -97,14 +97,19 @@ header nav .logo img{
                 ),black;
     /* margin-top: 100px; */
     background-clip: padding-box;
-    /* height: 20px; */
+    height: 130px;
 }
-.line h2{
+.line1{
+    background: rgb(0, 0, 0) 100%
+               
+    
+}
+.line1 h2{
     color: white;
     padding-top: 20px;
     padding-bottom: 10px;
 }
-.line .boxes select{
+.line1 .boxes select{
     width: 110px;
     padding: 8px;
     background-color: transparent;
@@ -122,17 +127,59 @@ header nav .logo img{
 .movie-cards{
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
     margin-top: 10px;
+    margin-bottom: 20px;
+
 }
 
 .card{
     background-color: transparent;
     width: 140px;
+    height: 200px;
+    margin-top: 10px;
 }
 .card img{
     border-radius: 5px;
+}
+
+.cardsss{
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+.card1{
+    padding: 1.5rem 1rem 6rem 1rem;
+    background-color: #1F1221;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.card1 .footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.questions {
+    margin-top: 50px;
+    display: block;
+    
+}
+
+.questions .ques{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color:#414141ad ;
+    padding: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.questions .ques:hover{
+    background-color: #414141;
+    cursor: pointer;
 }
 @media (max-width: 960px) {
     .boxes{
@@ -144,5 +191,15 @@ header nav .logo img{
     }
     .card{
         width: 112px;
+        height: 100%;
+    }
+    .cardsss{
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    .card1{
+        height: auto;
+        width: 100%;
     }
 }
