@@ -181,6 +181,33 @@ header nav .logo img{
     background-color: #414141;
     cursor: pointer;
 }
+
+.contact-page{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.input button{
+    width: fit-content;
+    padding: 1rem;
+    text-align: center;
+    height: 50px;
+}
+.input input{
+    background-color: #4141414b;
+    padding: 1rem;
+    border-radius: 5px;
+    height: 50px;
+    width: 320px;
+}
 @media (max-width: 960px) {
     .boxes{
         flex-wrap: wrap;
