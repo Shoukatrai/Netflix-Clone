@@ -5,6 +5,7 @@
 }
 .main{
     background-image: url(./Images/PK-en-20241223-TRIFECTA-perspective_85ff0c55-7fef-41fd-8447-76e72e8dbaa0_large.jpg);
+    height: 700px;
 }
 header nav{
     display: flex;
@@ -46,6 +47,7 @@ header nav .logo img{
     color: white;
     margin-top: 200px;
     gap: 10px;
+    /* margin-bottom: 100px; */
 }
 
 .hero .intro h1{
@@ -68,6 +70,8 @@ header nav .logo img{
     display: inline-flex;
     flex-wrap: wrap;
     gap: 10px;
+    align-items: center;
+    align-self: center;
 }
 .form input{
     width: 320px;
@@ -77,9 +81,68 @@ header nav .logo img{
     padding-left: 10px;
     color: white;
     border: 1px solid rgba(255, 255, 255, 0.488);
+    background-color: none;
 }
 
 .form button{
     width: 180px;
     height: 55px;
+}
+
+.line{
+    background: radial-gradient(
+                    50% 500% at 50% -420%,
+                    rgba(64, 97, 231, 0.4) 80%,
+                    rgba(0, 0, 0, 0.1) 100%
+                ),black;
+    /* margin-top: 100px; */
+    background-clip: padding-box;
+    /* height: 20px; */
+}
+.line h2{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.line .boxes select{
+    width: 110px;
+    padding: 8px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.357);
+    border-radius: 5px;
+   
+    
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+}
+
+.movie-cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    margin-top: 10px;
+}
+
+.card{
+    background-color: transparent;
+    width: 140px;
+}
+.card img{
+    border-radius: 5px;
+}
+@media (max-width: 960px) {
+    .boxes{
+        flex-wrap: wrap;
+    }
+    .line .boxes select{
+        width: 100%;
+        padding: 10px;
+    }
+    .card{
+        width: 112px;
+    }
 }
