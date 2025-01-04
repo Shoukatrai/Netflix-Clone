@@ -201,12 +201,51 @@ header nav .logo img{
     text-align: center;
     height: 50px;
 }
-.input input{
-    background-color: #4141414b;
-    padding: 1rem;
+
+.last-btn button{
+    display: flex;
+    padding: 25px;
+    width: fit-content;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    margin-top: 50px;
+    background: rgb(0, 0, 0) 100%
+}
+footer a{
+    color:rgba(255,255,255,0.7);
+    text-decoration-color: rgba(255,255,255,0.7);
+    font-weight: 400;
+    display: block;
+    cursor: pointer;
+    list-style-type: disc;
+    margin-top: 0.75rem;
+    margin-left: 0.75rem;
+    line-height: 1.5;
+}
+
+.link-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+footer select{
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    width: 130px;
     border-radius: 5px;
-    height: 50px;
-    width: 320px;
+}
+
+footer p{
+    color: rgba(255,255,255,0.7);
+    margin-top: 20px;
+    padding-bottom: 100px;
 }
 @media (max-width: 960px) {
     .boxes{
